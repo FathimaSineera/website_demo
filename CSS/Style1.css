@@ -1,0 +1,82 @@
+body{
+	margin: 0;/*to remove the white spaces on both side(L AND R)*/
+	padding: 0;
+}
+#navbar{
+	width: 100%;
+    background-color: hsl(301.9, 28%, 40%);
+    margin: 0px 5px 10px 850px;
+    position: fixed;
+
+}
+nav ul {
+    margin: 0px;
+    padding: 5px 15px 5px 15px;
+}
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+main{
+	
+}
+.container{
+	background-color:#98AFC7;
+	width: 100%;
+	color: yellow;
+	font-size: 40px;
+	display: grid;
+	grid-template-rows: 600px 800px 600px 300px;
+}
+.home{
+	background-color:black;
+}
+.img-profile{
+	display: block;
+	height: 225px;
+	width: 225px;
+	border-color:#7D1B7E;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 50%;
+	margin: 100px auto 5px;
+}
+#h-Software{
+	text-align: center;
+	color: white;
+}
+.about{
+	background-color:#0000A0; 
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 49.5% 49.5%;
+	grid-gap: 4px 4px;
+}
+#about1{
+	background-color:#FFFFFF;
+}
+#about2{
+	background-color:#000000;
+}
+#about3{
+	background-color:#FFFFFF;
+}
+#about4{
+	background-color:#000000;
+}
+#about5{
+	background-color:#FFFFFF;
+}
+#about6{
+	background-color:#000000;
+}
+.mythought{
+	background-color:#FFFFAF; 
+}
+.contact{
+	background-color:#A52A2A; 
+}
