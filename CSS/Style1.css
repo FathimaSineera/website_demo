@@ -21,9 +21,6 @@ a {
     text-decoration: none;
     color: white;
 }
-main{
-	
-}
 .container{
 	background-color:#98AFC7;
 	width: 100%;
@@ -43,7 +40,7 @@ main{
 	border-width: 2px;
 	border-style: solid;
 	border-radius: 50%;
-	margin: 100px auto 5px;
+	margin: 100px auto 5px;/*after adding display:block; ,auto should be placed here for center this image*/
 }
 #h-Software{
 	text-align: center;
