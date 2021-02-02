@@ -55,7 +55,7 @@ a {
 	font-size: medium;
 }
 #about1{
-	background-image:url("..\images\books.jpg");
+	background-image:url("../images/books.jpg");
 	height: auto;
 	width: 100%;
 	opacity: 0.5;
