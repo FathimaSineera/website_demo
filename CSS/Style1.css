@@ -22,7 +22,7 @@ a {
     color: black;
 }
 .container{
-	background-color:#0b8793;
+	background-color:black;
 	width: 100%;
 	display: grid;
 	grid-template-rows: 650px 800px 600px 300px;
@@ -93,5 +93,14 @@ a {
 	width: 300px;
 }
 .contact{
-	background-color:#7D1B7E; 
+	background-color:#0b8793; 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.contact img{
+	height: 100px;
+	width: 100px;
+}
+.contact div{
+	background-color: whitesmoke;
 }
