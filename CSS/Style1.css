@@ -19,13 +19,13 @@ nav li {
 }
 a {
     text-decoration: none;
-    color: #0b8793;
+    color: black;
 }
 .container{
 	background-color:#0b8793;
 	width: 100%;
 	display: grid;
-	grid-template-rows: 600px 800px 600px 300px;
+	grid-template-rows: 650px 800px 600px 300px;
 }
 .home{
 	background-image:linear-gradient(60deg,#360033,#0b8793,#7D1B7E);
@@ -38,11 +38,11 @@ a {
 	border-width: 2px;
 	border-style: solid;
 	border-radius: 50%;
-	margin: 100px auto 5px;/*after adding display:block; ,auto should be placed here for center this image*/
+	margin: 150px auto 5px;/*after adding display:block; ,auto should be placed here for center this image*/
 }
 #h-Software{
 	text-align: center;
-	color: white;
+	color: whitesmoke;
 	font-size: 40px;
 }
 .about{ 
@@ -55,30 +55,34 @@ a {
 	background-position: center;/*center the images*/
 	background-size: cover;/*scale the images*/
 	background-repeat: no-repeat;/*remove the image repeats*/
+	
 }
 #about1{
 	background-image:url("../images/personal.jpeg");
-	
 }
 #about2{
 	background-image:url("../images/education.jpg");
-
+	background-position: right;
 }
 #about3{
 	background-image:url("../images/key skills.png");
 
-}
-	
+}	
 #about4{
-	background-image:url("../images/projects.jpg");
-	background-position: left;
+	background-image:url("../images/project.jpg");
 }
 #about5{
-	background-image:url("../images/activity.jpg");
+	background-image:url("../images/acti.jpg");
 
 }
 #about6{
 	background-image:url("../images/certificate.jpg");
+	background-position: left;
+}
+
+.bg{
+	background-color: rgba(0, 0, 0, 0.8);
+	background-size: 100%;
 
 }
 .mythought{
