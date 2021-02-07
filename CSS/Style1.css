@@ -54,16 +54,18 @@ a {
 	font-size: medium;
 }
 #about1{
-	background-image:url("../images/books.jpg");
+	background-image:url("../images/personal.jpeg");
 	
 }
 #about2{
-	background-image:url("../images/books.jpg");
+	background-image:url("../images/education.jpg");
 
 }
 #about3{
 	background-image:url("../images/key skills.png");
 
+}
+	
 #about4{
 	background-image:url("../images/projects.jpg");
 
@@ -73,7 +75,7 @@ a {
 
 }
 #about6{
-	background-image:url("../images/certification.png");
+	background-image:url("../images/certificate.jpg");
 
 }
 .mythought{
