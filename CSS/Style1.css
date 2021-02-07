@@ -45,8 +45,7 @@ a {
 	color: white;
 	font-size: 40px;
 }
-.about{
-	background-color:#0000A0; 
+.about{ 
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
 	grid-template-rows: 49.5% 49.5%;
@@ -56,24 +55,26 @@ a {
 }
 #about1{
 	background-image:url("../images/books.jpg");
-	height: auto;
-	width: 100%;
-	opacity: 0.5;
+	
 }
 #about2{
-	background-color:#000000;
+	background-image:url("../images/books.jpg");
+
 }
 #about3{
-	background-color:#FFFFFF;
-}
+	background-image:url("../images/key skills.png");
+
 #about4{
-	background-color:#000000;
+	background-image:url("../images/projects.jpg");
+
 }
 #about5{
-	background-color:#FFFFFF;
+	background-image:url("../images/activity.jpg");
+
 }
 #about6{
-	background-color:#000000;
+	background-image:url("../images/certification.png");
+
 }
 .mythought{
 	background-color:#FFFFAF; 
