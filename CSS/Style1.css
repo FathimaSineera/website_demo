@@ -57,10 +57,16 @@ a {
 	background-position: center;/*center the images*/
 	background-size: cover;/*scale the images*/
 	background-repeat: no-repeat;/*remove the image repeats*/
-	opacity: 0.4;
 }
 .about-single h1{
 	text-align: center;
+}
+.details {
+	margin: 3%;
+	background-color: rgba(0, 0, 0, 0.7);
+	color:white;
+    width: 94%;
+    height: 90%;
 }
 #about1{
 	background-image:url("../images/personal.jpeg");
@@ -77,14 +83,12 @@ a {
 }
 #about3{
 	background-image:url("../images/key skills.png");
-
 }	
 #about4{
 	background-image:url("../images/project.jpg");
 }
 #about5{
 	background-image:url("../images/acti.jpg");
-
 }
 #about6{
 	background-image:url("../images/certificate.jpg");
