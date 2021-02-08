@@ -101,19 +101,23 @@ a {
 }
 .contact{
 	background-color:#0b8793; 
-	display: grid;
-	grid-template-columns: 250px 250px 250px;
-	grid-column-gap: 20px;
 }
 .contact h1{
 	text-align: center;
 }
-.contact img{
+/*.contact img{
 	height: 100px;
 	width: 100px;
-}
+}*/
 .contact-single{
 	background-color: whitesmoke;
-	margin-top: 100px;
-	margin-bottom: 10px;
+	height: 1fr;
+	width: 1fr;
+	margin-bottom: 2px;
+	margin-right: 2px;
+}
+#contact-detail{
+	height: 100px;
+	width:100%;
+	margin-bottom: 2px;
 }
