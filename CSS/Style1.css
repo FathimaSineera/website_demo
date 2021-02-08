@@ -57,23 +57,23 @@ a {
 	background-position: center;/*center the images*/
 	background-size: cover;/*scale the images*/
 	background-repeat: no-repeat;/*remove the image repeats*/
-	opacity: 0.4;
+	/*opacity: 0.4;*/
 }
 .about-single h1{
 	text-align: center;
 }
+.about-single dl{
+	padding-left: 15px;
+}
+.about-single dt, ol{
+	font-weight: bold;
+}
 #about1{
 	background-image:url("../images/personal.jpeg");
-}
-#about1 ol{
-	padding-left: 15px;
 }
 #about2{
 	background-image:url("../images/education.jpg");
 	background-position: right;
-}
-#about2 dl{
-	padding-left: 15px;
 }
 #about3{
 	background-image:url("../images/key skills.png");
