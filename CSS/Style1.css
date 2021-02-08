@@ -52,11 +52,14 @@ a {
 	grid-gap: 1px 1px;
 	color: white;
 	font-size: medium;
+}
+.about-single {
 	background-position: center;/*center the images*/
 	background-size: cover;/*scale the images*/
 	background-repeat: no-repeat;/*remove the image repeats*/
-	
+	opacity: 0.4;
 }
+
 #about1{
 	background-image:url("../images/personal.jpeg");
 }
@@ -80,11 +83,13 @@ a {
 	background-position: left;
 }
 
-.bg{
+/* To set opacity we don't need to create additional div */
+/* .bg{
 	background-color: rgba(0, 0, 0, 0.8);
 	background-size: 100%;
+	width: 100%;
+} */
 
-}
 .mythought{
 	background-color:#FFFFAF; 
 }
