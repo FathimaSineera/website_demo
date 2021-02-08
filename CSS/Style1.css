@@ -60,19 +60,20 @@ a {
 }
 .about-single h1{
 	text-align: center;
+	color: hsl(185, 75%, 52%);
 }
 .details {
-	margin: 0;
-	background-color: rgba(11, 135, 147, 0.4);
-	color:rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.7);
+	color:rgb(255, 255, 255);
     width: 100%;
     height: 100%;
 }
 .about-single dl{
 	padding-left: 15px;
 }
-.about-single dt, ol{
+.about-single dt{
 	font-weight: bold;
+	color: hsl(185, 75%, 52%);
 }
 #about1{
 	background-image:url("../images/personal.jpeg");
@@ -104,24 +105,25 @@ a {
 	width: 300px;
 }
 .contact{
-	background-color:#0b8793; 
+	background-color:#c6ebee; 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 60% 40%;
+	grid-column-gap: 100px;
 }
 .contact h1{
 	text-align: center;
 }
-/*.contact img{
-	height: 100px;
-	width: 100px;
-}*/
+.contact img{
+	height: 30px;
+	width: 30px;
+	display: block;
+	margin: 10px auto;
+}
 .contact-single{
-	background-color: whitesmoke;
-	height: 1fr;
-	width: 1fr;
-	margin-bottom: 2px;
-	margin-right: 2px;
+	background-color: hsl(0, 0%, 96%);
+	margin-bottom: 15px;
 }
 #contact-detail{
-	height: 100px;
-	width:100%;
-	margin-bottom: 2px;
+	grid-column: 1/4;
 }
