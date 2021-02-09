@@ -88,6 +88,9 @@ a {
 #about4{
 	background-image:url("../images/project.jpg");
 }
+#about4 a{
+	color: white;
+}
 #about5{
 	background-image:url("../images/acti.jpg");
 }
@@ -120,12 +123,12 @@ a {
 	display: block;
 	margin: 5px auto;
 }
-#home, #mail, #linkedin{
+#home-address, #mail, #linkedin{
 	background-color:whitesmoke;
 	margin-bottom: 25px;
 	border-radius: 5px;
 }
-#home{
+#home-address{
 	margin-left: 50px;
 }
 #linkedin{
