@@ -61,6 +61,8 @@ a {
 .about-single h1{
 	text-align: center;
 	color: hsl(185, 75%, 52%);
+	margin: 0;
+	padding-top: 20px;
 }
 .details {
 	background-color: rgba(0, 0, 0, 0.7);
