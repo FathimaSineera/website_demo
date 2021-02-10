@@ -22,7 +22,7 @@ a {
     color: black;
 }
 .container{
-	background-color:black;
+	background-color:white;
 	width: 100%;
 	display: grid;
 	grid-template-rows: 650px 800px 500px 250px;
@@ -49,9 +49,9 @@ a {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
-	grid-gap: 1px 1px;
-	color: black;
+	grid-gap: 10px 10px;
 	font-size: medium;
+	margin-top: 10px;
 }
 .about-single {
 	background-position: center;/*center the images*/
