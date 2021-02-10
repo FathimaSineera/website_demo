@@ -98,10 +98,9 @@ a {
 	background-image:url("../images/certificate.jpg");
 	background-position: left;
 }
-
 /* To set opacity we don't need to create additional div */
 .mythought{
-	background-color:#FFFFAF; 
+	background-color:white;
 }
 .mythought-gallery{
 	height:300px;
